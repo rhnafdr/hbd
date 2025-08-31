@@ -442,7 +442,7 @@
                         Buka Hadiah 🎁
                     </button>
                     <p id="passwordHint" class="text-xs sm:text-sm text-gray-500 mt-3 italic">
-                        Petunjuk: Tanggal lahirmu (format: ddmm)
+                        Hint: the date and month when you gave me a letter (in numbers[ddmm])
                     </p>
                     <p id="passwordError" class="text-red-500 text-xs sm:text-sm mt-2 hidden">
                         Kata kunci salah, coba lagi! 💭
@@ -700,7 +700,7 @@
 
     <script>
         let currentStep = 1;
-        const correctPassword = "19081992"; // Ganti dengan tanggal lahir yang diinginkan
+        const correctPassword = "1402"; // Ganti dengan tanggal lahir yang diinginkan
 
         function handlePasswordEnter(event) {
             if (event.key === 'Enter') {
